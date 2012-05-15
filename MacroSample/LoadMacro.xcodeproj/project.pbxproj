@@ -27,17 +27,17 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		81EE343D1491452A00132035 /* MacroSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacroSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		81EE343D1491452A00132035 /* LoadMacro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoadMacro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81EE34411491452A00132035 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		81EE34431491452A00132035 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		81EE34451491452A00132035 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		81EE34471491452A00132035 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 		81EE34491491452A00132035 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
 		81EE344B1491452A00132035 /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
-		81EE344F1491452A00132035 /* MacroSample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MacroSample-Info.plist"; sourceTree = "<group>"; };
+		81EE344F1491452A00132035 /* LoadMacro-Info.plist */ = {isa = PBXFileReference; path = "LoadMacro-Info.plist"; sourceTree = "<group>"; };
 		81EE34511491452A00132035 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		81EE34531491452A00132035 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		81EE34551491452A00132035 /* MacroSample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MacroSample-Prefix.pch"; sourceTree = "<group>"; };
+		81EE34551491452A00132035 /* LoadMacro-Prefix.pch */ = {isa = PBXFileReference; path = "LoadMacro-Prefix.pch"; sourceTree = "<group>"; };
 		81EE34561491452A00132035 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		81EE34571491452A00132035 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		81EE34591491452A00132035 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = HelloWorld/Frameworks/libsqlite3.dylib; sourceTree = "<group>"; };
@@ -83,7 +83,7 @@
 		81EE343E1491452A00132035 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				81EE343D1491452A00132035 /* MacroSample.app */,
+				81EE343D1491452A00132035 /* LoadMacro.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -124,10 +124,10 @@
 			isa = PBXGroup;
 			children = (
 				E69C896115360E33001CBD88 /* squaremedium.sphero */,
-				81EE344F1491452A00132035 /* MacroSample-Info.plist */,
+				81EE344F1491452A00132035 /* LoadMacro-Info.plist */,
 				81EE34501491452A00132035 /* InfoPlist.strings */,
 				81EE34531491452A00132035 /* main.m */,
-				81EE34551491452A00132035 /* MacroSample-Prefix.pch */,
+				81EE34551491452A00132035 /* LoadMacro-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -135,9 +135,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		81EE343C1491452A00132035 /* MacroSample */ = {
+		81EE343C1491452A00132035 /* LoadMacro */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 81EE346C1491452B00132035 /* Build configuration list for PBXNativeTarget "MacroSample" */;
+			buildConfigurationList = 81EE346C1491452B00132035 /* Build configuration list for PBXNativeTarget "LoadMacro" */;
 			buildPhases = (
 				81EE34391491452A00132035 /* Sources */,
 				81EE343A1491452A00132035 /* Frameworks */,
@@ -147,9 +147,9 @@
 			);
 			dependencies = (
 			);
-			name = MacroSample;
+			name = LoadMacro;
 			productName = HelloWorld;
-			productReference = 81EE343D1491452A00132035 /* MacroSample.app */;
+			productReference = 81EE343D1491452A00132035 /* LoadMacro.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -161,7 +161,7 @@
 				LastUpgradeCheck = 0420;
 				ORGANIZATIONNAME = "Orbotix, Inc.";
 			};
-			buildConfigurationList = 81EE34371491452A00132035 /* Build configuration list for PBXProject "MacroSample" */;
+			buildConfigurationList = 81EE34371491452A00132035 /* Build configuration list for PBXProject "LoadMacro" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -173,7 +173,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				81EE343C1491452A00132035 /* MacroSample */,
+				81EE343C1491452A00132035 /* LoadMacro */,
 			);
 		};
 /* End PBXProject section */
@@ -288,8 +288,8 @@
 					"\"$(SRCROOT)\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "HelloWorld/MacroSample-Prefix.pch";
-				INFOPLIST_FILE = "HelloWorld/MacroSample-Info.plist";
+				GCC_PREFIX_HEADER = "HelloWorld/LoadMacro-Prefix.pch";
+				INFOPLIST_FILE = "HelloWorld/LoadMacro-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/HelloWorld/Frameworks\"",
@@ -299,7 +299,7 @@
 					"-all_load",
 					"-lstdc++",
 				);
-				PRODUCT_NAME = MacroSample;
+				PRODUCT_NAME = LoadMacro;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -313,8 +313,8 @@
 					"\"$(SRCROOT)\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "HelloWorld/MacroSample-Prefix.pch";
-				INFOPLIST_FILE = "HelloWorld/MacroSample-Info.plist";
+				GCC_PREFIX_HEADER = "HelloWorld/LoadMacro-Prefix.pch";
+				INFOPLIST_FILE = "HelloWorld/LoadMacro-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/HelloWorld/Frameworks\"",
@@ -324,7 +324,7 @@
 					"-all_load",
 					"-lstdc++",
 				);
-				PRODUCT_NAME = MacroSample;
+				PRODUCT_NAME = LoadMacro;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -332,7 +332,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		81EE34371491452A00132035 /* Build configuration list for PBXProject "MacroSample" */ = {
+		81EE34371491452A00132035 /* Build configuration list for PBXProject "LoadMacro" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				81EE346A1491452B00132035 /* Debug */,
@@ -341,7 +341,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		81EE346C1491452B00132035 /* Build configuration list for PBXNativeTarget "MacroSample" */ = {
+		81EE346C1491452B00132035 /* Build configuration list for PBXNativeTarget "LoadMacro" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				81EE346D1491452B00132035 /* Debug */,
