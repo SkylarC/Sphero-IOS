@@ -1,0 +1,500 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E6883B72157DCEE5009AD39F /* JoystickPuck.png in Resources */ = {isa = PBXBuildFile; fileRef = E6883B70157DCEE5009AD39F /* JoystickPuck.png */; };
+		E6883B73157DCEE5009AD39F /* JoystickBG.png in Resources */ = {isa = PBXBuildFile; fileRef = E6883B71157DCEE5009AD39F /* JoystickBG.png */; };
+		E6BB48E41576A3FD00079EB8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6BB48E31576A3FD00079EB8 /* UIKit.framework */; };
+		E6BB48E61576A3FD00079EB8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6BB48E51576A3FD00079EB8 /* Foundation.framework */; };
+		E6BB48E81576A3FD00079EB8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6BB48E71576A3FD00079EB8 /* CoreGraphics.framework */; };
+		E6BB48EA1576A3FD00079EB8 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6BB48E91576A3FD00079EB8 /* CoreMotion.framework */; };
+		E6BB48EC1576A3FD00079EB8 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6BB48EB1576A3FD00079EB8 /* GameKit.framework */; };
+		E6BB48EE1576A3FD00079EB8 /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6BB48ED1576A3FD00079EB8 /* ExternalAccessory.framework */; };
+		E6BB48F41576A3FD00079EB8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E6BB48F21576A3FD00079EB8 /* InfoPlist.strings */; };
+		E6BB48F61576A3FD00079EB8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E6BB48F51576A3FD00079EB8 /* main.m */; };
+		E6BB48FA1576A3FD00079EB8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E6BB48F91576A3FD00079EB8 /* AppDelegate.m */; };
+		E6BB48FC1576A3FD00079EB8 /* RobotKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6BB48FB1576A3FD00079EB8 /* RobotKit.framework */; };
+		E6BB49031576A3FE00079EB8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6BB49021576A3FE00079EB8 /* ViewController.m */; };
+		E6BB49061576A3FE00079EB8 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = E6BB49041576A3FE00079EB8 /* ViewController_iPhone.xib */; };
+		E6BB49091576A3FE00079EB8 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = E6BB49071576A3FE00079EB8 /* ViewController_iPad.xib */; };
+		E6BB494B1576DF1800079EB8 /* OC.png in Resources */ = {isa = PBXBuildFile; fileRef = E6BB494A1576DF1800079EB8 /* OC.png */; };
+		E6BB494D1576DF3D00079EB8 /* IC.png in Resources */ = {isa = PBXBuildFile; fileRef = E6BB494C1576DF3D00079EB8 /* IC.png */; };
+		E6BB494F1576DF5300079EB8 /* MC.png in Resources */ = {isa = PBXBuildFile; fileRef = E6BB494E1576DF5300079EB8 /* MC.png */; };
+		E6BB49521576DF6000079EB8 /* tfC.png in Resources */ = {isa = PBXBuildFile; fileRef = E6BB49511576DF6000079EB8 /* tfC.png */; };
+		E6BB49591578249200079EB8 /* RobotUIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6BB49571578249200079EB8 /* RobotUIKit.framework */; };
+		E6BB495A1578249200079EB8 /* RobotUIKit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E6BB49581578249200079EB8 /* RobotUIKit.bundle */; };
+		E6BB496615796EFD00079EB8 /* CircularUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = E6BB49421576DAE100079EB8 /* CircularUIView.m */; };
+		E6BB4968157D041900079EB8 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6BB4967157D041900079EB8 /* QuartzCore.framework */; };
+		E6BB4983157D12F300079EB8 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = E6BB4978157D12F200079EB8 /* bg.png */; };
+		E6BB4984157D12F300079EB8 /* centerButton.png in Resources */ = {isa = PBXBuildFile; fileRef = E6BB4979157D12F200079EB8 /* centerButton.png */; };
+		E6BB4985157D12F300079EB8 /* icon0.png in Resources */ = {isa = PBXBuildFile; fileRef = E6BB497A157D12F200079EB8 /* icon0.png */; };
+		E6BB4986157D12F300079EB8 /* icon1.png in Resources */ = {isa = PBXBuildFile; fileRef = E6BB497B157D12F200079EB8 /* icon1.png */; };
+		E6BB4987157D12F300079EB8 /* icon2.png in Resources */ = {isa = PBXBuildFile; fileRef = E6BB497C157D12F300079EB8 /* icon2.png */; };
+		E6BB4988157D12F300079EB8 /* icon3.png in Resources */ = {isa = PBXBuildFile; fileRef = E6BB497D157D12F300079EB8 /* icon3.png */; };
+		E6BB4989157D12F300079EB8 /* icon4.png in Resources */ = {isa = PBXBuildFile; fileRef = E6BB497E157D12F300079EB8 /* icon4.png */; };
+		E6BB498A157D12F300079EB8 /* icon5.png in Resources */ = {isa = PBXBuildFile; fileRef = E6BB497F157D12F300079EB8 /* icon5.png */; };
+		E6BB498B157D12F300079EB8 /* icon6.png in Resources */ = {isa = PBXBuildFile; fileRef = E6BB4980157D12F300079EB8 /* icon6.png */; };
+		E6BB498C157D12F300079EB8 /* icon7.png in Resources */ = {isa = PBXBuildFile; fileRef = E6BB4981157D12F300079EB8 /* icon7.png */; };
+		E6BB498D157D12F300079EB8 /* segment.png in Resources */ = {isa = PBXBuildFile; fileRef = E6BB4982157D12F300079EB8 /* segment.png */; };
+		E6BB4990157D14A200079EB8 /* SMRotaryWheel.m in Sources */ = {isa = PBXBuildFile; fileRef = E6BB4976157D11E900079EB8 /* SMRotaryWheel.m */; };
+		E6BB4999157D170900079EB8 /* SMCLove.m in Sources */ = {isa = PBXBuildFile; fileRef = E6BB498F157D134600079EB8 /* SMCLove.m */; };
+		E6FB8E51157EACD800F90346 /* CalibrationDot.m in Sources */ = {isa = PBXBuildFile; fileRef = E6FB8E50157EACD800F90346 /* CalibrationDot.m */; };
+		E6FB8E5F157FC25F00F90346 /* calibrateview.m in Sources */ = {isa = PBXBuildFile; fileRef = E6FB8E5E157FC25F00F90346 /* calibrateview.m */; };
+		E6FB8E63157FD44400F90346 /* Glowing_Blue_Orb.png in Resources */ = {isa = PBXBuildFile; fileRef = E6FB8E62157FD44400F90346 /* Glowing_Blue_Orb.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E6883B70157DCEE5009AD39F /* JoystickPuck.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = JoystickPuck.png; sourceTree = "<group>"; };
+		E6883B71157DCEE5009AD39F /* JoystickBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = JoystickBG.png; sourceTree = "<group>"; };
+		E6BB48DF1576A3FD00079EB8 /* Calibration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calibration.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6BB48E31576A3FD00079EB8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E6BB48E51576A3FD00079EB8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E6BB48E71576A3FD00079EB8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E6BB48E91576A3FD00079EB8 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		E6BB48EB1576A3FD00079EB8 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		E6BB48ED1576A3FD00079EB8 /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+		E6BB48F11576A3FD00079EB8 /* Calibration-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Calibration-Info.plist"; sourceTree = "<group>"; };
+		E6BB48F31576A3FD00079EB8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E6BB48F51576A3FD00079EB8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E6BB48F71576A3FD00079EB8 /* Calibration-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Calibration-Prefix.pch"; sourceTree = "<group>"; };
+		E6BB48F81576A3FD00079EB8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E6BB48F91576A3FD00079EB8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E6BB48FB1576A3FD00079EB8 /* RobotKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RobotKit.framework; path = Calibration/Frameworks/RobotKit.framework; sourceTree = "<group>"; };
+		E6BB49011576A3FE00079EB8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E6BB49021576A3FE00079EB8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E6BB49051576A3FE00079EB8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		E6BB49081576A3FE00079EB8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		E6BB493F1576DAE100079EB8 /* jsp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jsp.png; sourceTree = "<group>"; };
+		E6BB49401576DAE100079EB8 /* jsbg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jsbg.png; sourceTree = "<group>"; };
+		E6BB49411576DAE100079EB8 /* CircularUIView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CircularUIView.h; sourceTree = "<group>"; };
+		E6BB49421576DAE100079EB8 /* CircularUIView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CircularUIView.m; sourceTree = "<group>"; };
+		E6BB494A1576DF1800079EB8 /* OC.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OC.png; sourceTree = "<group>"; };
+		E6BB494C1576DF3D00079EB8 /* IC.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IC.png; sourceTree = "<group>"; };
+		E6BB494E1576DF5300079EB8 /* MC.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MC.png; sourceTree = "<group>"; };
+		E6BB49511576DF6000079EB8 /* tfC.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tfC.png; sourceTree = "<group>"; };
+		E6BB49571578249200079EB8 /* RobotUIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RobotUIKit.framework; sourceTree = "<group>"; };
+		E6BB49581578249200079EB8 /* RobotUIKit.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = RobotUIKit.bundle; sourceTree = "<group>"; };
+		E6BB4967157D041900079EB8 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		E6BB4976157D11E900079EB8 /* SMRotaryWheel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMRotaryWheel.m; sourceTree = "<group>"; };
+		E6BB4977157D11E900079EB8 /* SMRotaryProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMRotaryProtocol.h; sourceTree = "<group>"; };
+		E6BB4978157D12F200079EB8 /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
+		E6BB4979157D12F200079EB8 /* centerButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = centerButton.png; sourceTree = "<group>"; };
+		E6BB497A157D12F200079EB8 /* icon0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon0.png; sourceTree = "<group>"; };
+		E6BB497B157D12F200079EB8 /* icon1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon1.png; sourceTree = "<group>"; };
+		E6BB497C157D12F300079EB8 /* icon2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon2.png; sourceTree = "<group>"; };
+		E6BB497D157D12F300079EB8 /* icon3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon3.png; sourceTree = "<group>"; };
+		E6BB497E157D12F300079EB8 /* icon4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon4.png; sourceTree = "<group>"; };
+		E6BB497F157D12F300079EB8 /* icon5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon5.png; sourceTree = "<group>"; };
+		E6BB4980157D12F300079EB8 /* icon6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon6.png; sourceTree = "<group>"; };
+		E6BB4981157D12F300079EB8 /* icon7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon7.png; sourceTree = "<group>"; };
+		E6BB4982157D12F300079EB8 /* segment.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = segment.png; sourceTree = "<group>"; };
+		E6BB498E157D134600079EB8 /* SMCLove.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMCLove.h; sourceTree = "<group>"; };
+		E6BB498F157D134600079EB8 /* SMCLove.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMCLove.m; sourceTree = "<group>"; };
+		E6FB8E4E157EAC6F00F90346 /* SMRotaryWheel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMRotaryWheel.h; sourceTree = "<group>"; };
+		E6FB8E4F157EACD800F90346 /* CalibrationDot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalibrationDot.h; sourceTree = "<group>"; };
+		E6FB8E50157EACD800F90346 /* CalibrationDot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalibrationDot.m; sourceTree = "<group>"; };
+		E6FB8E5D157FC25F00F90346 /* calibrateview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = calibrateview.h; sourceTree = "<group>"; };
+		E6FB8E5E157FC25F00F90346 /* calibrateview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = calibrateview.m; sourceTree = "<group>"; };
+		E6FB8E62157FD44400F90346 /* Glowing_Blue_Orb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Glowing_Blue_Orb.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E6BB48DC1576A3FD00079EB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6BB4968157D041900079EB8 /* QuartzCore.framework in Frameworks */,
+				E6BB48E41576A3FD00079EB8 /* UIKit.framework in Frameworks */,
+				E6BB48E61576A3FD00079EB8 /* Foundation.framework in Frameworks */,
+				E6BB48E81576A3FD00079EB8 /* CoreGraphics.framework in Frameworks */,
+				E6BB48EA1576A3FD00079EB8 /* CoreMotion.framework in Frameworks */,
+				E6BB48EC1576A3FD00079EB8 /* GameKit.framework in Frameworks */,
+				E6BB48EE1576A3FD00079EB8 /* ExternalAccessory.framework in Frameworks */,
+				E6BB48FC1576A3FD00079EB8 /* RobotKit.framework in Frameworks */,
+				E6BB49591578249200079EB8 /* RobotUIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E6883B75157E6482009AD39F /* Calibration */ = {
+			isa = PBXGroup;
+			children = (
+				E6883B76157E6497009AD39F /* Naming */,
+				E6BB4977157D11E900079EB8 /* SMRotaryProtocol.h */,
+				E6FB8E4E157EAC6F00F90346 /* SMRotaryWheel.h */,
+				E6BB4976157D11E900079EB8 /* SMRotaryWheel.m */,
+			);
+			name = Calibration;
+			sourceTree = "<group>";
+		};
+		E6883B76157E6497009AD39F /* Naming */ = {
+			isa = PBXGroup;
+			children = (
+				E6BB498F157D134600079EB8 /* SMCLove.m */,
+				E6BB498E157D134600079EB8 /* SMCLove.h */,
+			);
+			name = Naming;
+			sourceTree = "<group>";
+		};
+		E6883B77157E64B7009AD39F /* DriveWheel */ = {
+			isa = PBXGroup;
+			children = (
+				E6BB49411576DAE100079EB8 /* CircularUIView.h */,
+				E6BB49421576DAE100079EB8 /* CircularUIView.m */,
+			);
+			name = DriveWheel;
+			sourceTree = "<group>";
+		};
+		E6BB48D41576A3FC00079EB8 = {
+			isa = PBXGroup;
+			children = (
+				E6BB48EF1576A3FD00079EB8 /* Calibration */,
+				E6BB48E21576A3FD00079EB8 /* Frameworks */,
+				E6BB48E01576A3FD00079EB8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E6BB48E01576A3FD00079EB8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E6BB48DF1576A3FD00079EB8 /* Calibration.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E6BB48E21576A3FD00079EB8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E6BB4967157D041900079EB8 /* QuartzCore.framework */,
+				E6BB49571578249200079EB8 /* RobotUIKit.framework */,
+				E6BB49581578249200079EB8 /* RobotUIKit.bundle */,
+				E6BB48FB1576A3FD00079EB8 /* RobotKit.framework */,
+				E6BB48E31576A3FD00079EB8 /* UIKit.framework */,
+				E6BB48E51576A3FD00079EB8 /* Foundation.framework */,
+				E6BB48E71576A3FD00079EB8 /* CoreGraphics.framework */,
+				E6BB48E91576A3FD00079EB8 /* CoreMotion.framework */,
+				E6BB48EB1576A3FD00079EB8 /* GameKit.framework */,
+				E6BB48ED1576A3FD00079EB8 /* ExternalAccessory.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E6BB48EF1576A3FD00079EB8 /* Calibration */ = {
+			isa = PBXGroup;
+			children = (
+				E6883B75157E6482009AD39F /* Calibration */,
+				E6FB8E61157FC27500F90346 /* CalibrationView */,
+				E6FB8E4C157EABE400F90346 /* CalibrationButton */,
+				E6883B77157E64B7009AD39F /* DriveWheel */,
+				E6BB48F81576A3FD00079EB8 /* AppDelegate.h */,
+				E6BB48F91576A3FD00079EB8 /* AppDelegate.m */,
+				E6BB49011576A3FE00079EB8 /* ViewController.h */,
+				E6BB49021576A3FE00079EB8 /* ViewController.m */,
+				E6BB49041576A3FE00079EB8 /* ViewController_iPhone.xib */,
+				E6BB49071576A3FE00079EB8 /* ViewController_iPad.xib */,
+				E6BB48F01576A3FD00079EB8 /* Supporting Files */,
+			);
+			path = Calibration;
+			sourceTree = "<group>";
+		};
+		E6BB48F01576A3FD00079EB8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E6BB49431576DB0F00079EB8 /* Images */,
+				E6BB48F11576A3FD00079EB8 /* Calibration-Info.plist */,
+				E6BB48F21576A3FD00079EB8 /* InfoPlist.strings */,
+				E6BB48F51576A3FD00079EB8 /* main.m */,
+				E6BB48F71576A3FD00079EB8 /* Calibration-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E6BB49431576DB0F00079EB8 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				E6FB8E62157FD44400F90346 /* Glowing_Blue_Orb.png */,
+				E6883B70157DCEE5009AD39F /* JoystickPuck.png */,
+				E6883B71157DCEE5009AD39F /* JoystickBG.png */,
+				E6BB4978157D12F200079EB8 /* bg.png */,
+				E6BB4979157D12F200079EB8 /* centerButton.png */,
+				E6BB497A157D12F200079EB8 /* icon0.png */,
+				E6BB497B157D12F200079EB8 /* icon1.png */,
+				E6BB497C157D12F300079EB8 /* icon2.png */,
+				E6BB497D157D12F300079EB8 /* icon3.png */,
+				E6BB497E157D12F300079EB8 /* icon4.png */,
+				E6BB497F157D12F300079EB8 /* icon5.png */,
+				E6BB4980157D12F300079EB8 /* icon6.png */,
+				E6BB4981157D12F300079EB8 /* icon7.png */,
+				E6BB4982157D12F300079EB8 /* segment.png */,
+				E6BB49511576DF6000079EB8 /* tfC.png */,
+				E6BB494E1576DF5300079EB8 /* MC.png */,
+				E6BB493F1576DAE100079EB8 /* jsp.png */,
+				E6BB494A1576DF1800079EB8 /* OC.png */,
+				E6BB494C1576DF3D00079EB8 /* IC.png */,
+				E6BB49401576DAE100079EB8 /* jsbg.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		E6FB8E4C157EABE400F90346 /* CalibrationButton */ = {
+			isa = PBXGroup;
+			children = (
+				E6FB8E4F157EACD800F90346 /* CalibrationDot.h */,
+				E6FB8E50157EACD800F90346 /* CalibrationDot.m */,
+			);
+			name = CalibrationButton;
+			sourceTree = "<group>";
+		};
+		E6FB8E61157FC27500F90346 /* CalibrationView */ = {
+			isa = PBXGroup;
+			children = (
+				E6FB8E5D157FC25F00F90346 /* calibrateview.h */,
+				E6FB8E5E157FC25F00F90346 /* calibrateview.m */,
+			);
+			name = CalibrationView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E6BB48DE1576A3FD00079EB8 /* Calibration */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6BB490C1576A3FE00079EB8 /* Build configuration list for PBXNativeTarget "Calibration" */;
+			buildPhases = (
+				E6BB48DB1576A3FD00079EB8 /* Sources */,
+				E6BB48DC1576A3FD00079EB8 /* Frameworks */,
+				E6BB48DD1576A3FD00079EB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Calibration;
+			productName = Calibration;
+			productReference = E6BB48DF1576A3FD00079EB8 /* Calibration.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E6BB48D61576A3FC00079EB8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = E6BB48D91576A3FC00079EB8 /* Build configuration list for PBXProject "Calibration" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E6BB48D41576A3FC00079EB8;
+			productRefGroup = E6BB48E01576A3FD00079EB8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E6BB48DE1576A3FD00079EB8 /* Calibration */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E6BB48DD1576A3FD00079EB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6BB48F41576A3FD00079EB8 /* InfoPlist.strings in Resources */,
+				E6BB49061576A3FE00079EB8 /* ViewController_iPhone.xib in Resources */,
+				E6BB49091576A3FE00079EB8 /* ViewController_iPad.xib in Resources */,
+				E6BB494B1576DF1800079EB8 /* OC.png in Resources */,
+				E6BB494D1576DF3D00079EB8 /* IC.png in Resources */,
+				E6BB494F1576DF5300079EB8 /* MC.png in Resources */,
+				E6BB49521576DF6000079EB8 /* tfC.png in Resources */,
+				E6BB495A1578249200079EB8 /* RobotUIKit.bundle in Resources */,
+				E6BB4983157D12F300079EB8 /* bg.png in Resources */,
+				E6BB4984157D12F300079EB8 /* centerButton.png in Resources */,
+				E6BB4985157D12F300079EB8 /* icon0.png in Resources */,
+				E6BB4986157D12F300079EB8 /* icon1.png in Resources */,
+				E6BB4987157D12F300079EB8 /* icon2.png in Resources */,
+				E6BB4988157D12F300079EB8 /* icon3.png in Resources */,
+				E6BB4989157D12F300079EB8 /* icon4.png in Resources */,
+				E6BB498A157D12F300079EB8 /* icon5.png in Resources */,
+				E6BB498B157D12F300079EB8 /* icon6.png in Resources */,
+				E6BB498C157D12F300079EB8 /* icon7.png in Resources */,
+				E6BB498D157D12F300079EB8 /* segment.png in Resources */,
+				E6883B72157DCEE5009AD39F /* JoystickPuck.png in Resources */,
+				E6883B73157DCEE5009AD39F /* JoystickBG.png in Resources */,
+				E6FB8E63157FD44400F90346 /* Glowing_Blue_Orb.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E6BB48DB1576A3FD00079EB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6BB48F61576A3FD00079EB8 /* main.m in Sources */,
+				E6BB48FA1576A3FD00079EB8 /* AppDelegate.m in Sources */,
+				E6BB49031576A3FE00079EB8 /* ViewController.m in Sources */,
+				E6BB496615796EFD00079EB8 /* CircularUIView.m in Sources */,
+				E6BB4990157D14A200079EB8 /* SMRotaryWheel.m in Sources */,
+				E6BB4999157D170900079EB8 /* SMCLove.m in Sources */,
+				E6FB8E51157EACD800F90346 /* CalibrationDot.m in Sources */,
+				E6FB8E5F157FC25F00F90346 /* calibrateview.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E6BB48F21576A3FD00079EB8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6BB48F31576A3FD00079EB8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E6BB49041576A3FE00079EB8 /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6BB49051576A3FE00079EB8 /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		E6BB49071576A3FE00079EB8 /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6BB49081576A3FE00079EB8 /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E6BB490A1576A3FE00079EB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E6BB490B1576A3FE00079EB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E6BB490D1576A3FE00079EB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Calibration/Frameworks\"",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Calibration/Calibration-Prefix.pch";
+				INFOPLIST_FILE = "Calibration/Calibration-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+					"-lstdc++",
+					"-lsqlite3.0",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E6BB490E1576A3FE00079EB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Calibration/Frameworks\"",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Calibration/Calibration-Prefix.pch";
+				INFOPLIST_FILE = "Calibration/Calibration-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+					"-lstdc++",
+					"-lsqlite3.0",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E6BB48D91576A3FC00079EB8 /* Build configuration list for PBXProject "Calibration" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6BB490A1576A3FE00079EB8 /* Debug */,
+				E6BB490B1576A3FE00079EB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6BB490C1576A3FE00079EB8 /* Build configuration list for PBXNativeTarget "Calibration" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6BB490D1576A3FE00079EB8 /* Debug */,
+				E6BB490E1576A3FE00079EB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E6BB48D61576A3FC00079EB8 /* Project object */;
+}
