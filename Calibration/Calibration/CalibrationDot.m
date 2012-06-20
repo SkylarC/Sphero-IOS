@@ -63,7 +63,7 @@ static float maxAlphavalue = 1.0;
    
 
     im = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, 50, 50)];
-    im.image = [UIImage imageNamed:@"Glowing_Blue_Orb.png"];
+    im.image = [UIImage imageNamed:@"Sphero-TwoFingerCalibrateTouchGlowBlue.png"];
     im.layer.anchorPoint = CGPointMake(2.0f, 0.5f);
     im.layer.position = CGPointMake(container.bounds.size.width/2.0-container.frame.origin.x, 
                                     container.bounds.size.height/2.0-container.frame.origin.y); 
@@ -342,7 +342,8 @@ static float maxAlphavalue = 1.0;
         
     //[self spheroHeadingFromRoomHeading:calibrationAngle];
     //[macro addCommand:[RKMCCalibrate commandWithHeading:180 delay:0 ]];
-        [macro addCommand:[RKMCCalibrate commandWithHeading:[self spheroHeadingFromRoomHeading:calibrationAngle]+30 delay:255 ]];
+       // [macro addCommand:[RKMCCalibrate commandWithHeading:[self spheroHeadingFromRoomHeading:calibrationAngle]+30 delay:255 ]];
+          [macro addCommand:[RKMCRotateOverTime commandWithRotation:[self spheroHeadingFromRoomHeading:calibrationAngle * 5] delay:10]];
         //[macro addCommand:[RKMCEmit commandWithID:002]]; 
         //[macro addCommand:[RKMCCalibrate commandWithHeading:0 delay:255]];
        // [macro addCommand:[RKMCRGB commandWithRed:1.0 green:1.0 blue:1.0 delay:255]];
@@ -363,21 +364,22 @@ static float maxAlphavalue = 1.0;
     //macroplay =YES;
    // while (calibrationAngle == spheroHeadingZero ) {
          
-        [RKRollCommand sendCommandWithHeading:calibrationAngle velocity:0.0];
-        [RKBackLEDOutputCommand sendCommandWithBrightness:1.0];
+       // [RKRollCommand sendCommandWithHeading:calibrationAngle velocity:0.0];
+       // [RKBackLEDOutputCommand sendCommandWithBrightness:1.0];
         
-        /*
+        
          RKMacroObject *macro = [RKMacroObject new];
          
          //[self spheroHeadingFromRoomHeading:calibrationAngle];
          //[macro addCommand:[RKMCCalibrate commandWithHeading:180 delay:0 ]];
-         [macro addCommand:[RKMCCalibrate commandWithHeading:[self spheroHeadingFromRoomHeading:calibrationAngle]-30 delay:255 ]];
+        // [macro addCommand:[RKMCCalibrate commandWithHeading:[self spheroHeadingFromRoomHeading:calibrationAngle]-30 delay:255 ]];
+        [macro addCommand:[RKMCRotateOverTime commandWithRotation:[self spheroHeadingFromRoomHeading2:calibrationAngle * 5] delay:10]];
          //[macro addCommand:[RKMCEmit commandWithID:002]]; 
          //[macro addCommand:[RKMCCalibrate commandWithHeading:0 delay:255]];
          // [macro addCommand:[RKMCRGB commandWithRed:1.0 green:1.0 blue:1.0 delay:255]];
          
          [macro playMacro];
-         */
+         
          NSLog(@"cali (%.f)", calibrationAngle);
          //  [self spheroHeadingFromRoomHeading:calibrationAngle];
          
@@ -394,6 +396,18 @@ static float maxAlphavalue = 1.0;
      
     while (angle >= 360.0f) angle -= 360.0f;
     while (angle < 0.0f) angle += 360.0f;
+    NSLog(@"angle (%.f)", angle);
+    return angle;
+}
+
+
+- (float) spheroHeadingFromRoomHeading2: (float) roomHeading2
+{
+    
+    angle = roomHeading2 - spheroHeadingZero;
+    
+    while (angle <= -360.0f) angle += 360.0f;
+    while (angle > 0.0f) angle -= 360.0f;
     NSLog(@"angle (%.f)", angle);
     return angle;
 }

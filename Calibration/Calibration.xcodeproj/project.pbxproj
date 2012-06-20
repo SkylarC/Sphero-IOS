@@ -43,6 +43,7 @@
 		E6BB498D157D12F300079EB8 /* segment.png in Resources */ = {isa = PBXBuildFile; fileRef = E6BB4982157D12F300079EB8 /* segment.png */; };
 		E6BB4990157D14A200079EB8 /* SMRotaryWheel.m in Sources */ = {isa = PBXBuildFile; fileRef = E6BB4976157D11E900079EB8 /* SMRotaryWheel.m */; };
 		E6BB4999157D170900079EB8 /* SMCLove.m in Sources */ = {isa = PBXBuildFile; fileRef = E6BB498F157D134600079EB8 /* SMCLove.m */; };
+		E6D144A31590C5F8009B45F1 /* Sphero-TwoFingerCalibrateTouchGlowBlue.png in Resources */ = {isa = PBXBuildFile; fileRef = E6D144A21590C5F8009B45F1 /* Sphero-TwoFingerCalibrateTouchGlowBlue.png */; };
 		E6FB8E51157EACD800F90346 /* CalibrationDot.m in Sources */ = {isa = PBXBuildFile; fileRef = E6FB8E50157EACD800F90346 /* CalibrationDot.m */; };
 		E6FB8E5F157FC25F00F90346 /* calibrateview.m in Sources */ = {isa = PBXBuildFile; fileRef = E6FB8E5E157FC25F00F90346 /* calibrateview.m */; };
 		E6FB8E63157FD44400F90346 /* Glowing_Blue_Orb.png in Resources */ = {isa = PBXBuildFile; fileRef = E6FB8E62157FD44400F90346 /* Glowing_Blue_Orb.png */; };
@@ -95,6 +96,7 @@
 		E6BB4982157D12F300079EB8 /* segment.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = segment.png; sourceTree = "<group>"; };
 		E6BB498E157D134600079EB8 /* SMCLove.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMCLove.h; sourceTree = "<group>"; };
 		E6BB498F157D134600079EB8 /* SMCLove.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMCLove.m; sourceTree = "<group>"; };
+		E6D144A21590C5F8009B45F1 /* Sphero-TwoFingerCalibrateTouchGlowBlue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sphero-TwoFingerCalibrateTouchGlowBlue.png"; sourceTree = "<group>"; };
 		E6FB8E4E157EAC6F00F90346 /* SMRotaryWheel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMRotaryWheel.h; sourceTree = "<group>"; };
 		E6FB8E4F157EACD800F90346 /* CalibrationDot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalibrationDot.h; sourceTree = "<group>"; };
 		E6FB8E50157EACD800F90346 /* CalibrationDot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalibrationDot.m; sourceTree = "<group>"; };
@@ -189,6 +191,7 @@
 		E6BB48EF1576A3FD00079EB8 /* Calibration */ = {
 			isa = PBXGroup;
 			children = (
+				E6D144A21590C5F8009B45F1 /* Sphero-TwoFingerCalibrateTouchGlowBlue.png */,
 				E6883B75157E6482009AD39F /* Calibration */,
 				E6FB8E61157FC27500F90346 /* CalibrationView */,
 				E6FB8E4C157EABE400F90346 /* CalibrationButton */,
@@ -333,6 +336,7 @@
 				E6883B72157DCEE5009AD39F /* JoystickPuck.png in Resources */,
 				E6883B73157DCEE5009AD39F /* JoystickBG.png in Resources */,
 				E6FB8E63157FD44400F90346 /* Glowing_Blue_Orb.png in Resources */,
+				E6D144A31590C5F8009B45F1 /* Sphero-TwoFingerCalibrateTouchGlowBlue.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
